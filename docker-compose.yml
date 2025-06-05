@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  seq:
+    image: datalust/seq:latest
+    container_name: seq
+    ports:
+      - "5341:80" # Puerto 80 interno de Seq → 5341 en host
+    environment:
+      ACCEPT_EULA: "Y" # Acepta el EULA de Seq
+      SEQ_FIRSTRUN_ADMINPASSWORD: "123"
+    volumes:
+      - seq-data:/data # Persistencia de eventos de Seq
+
+  todolist-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: todolist-api
+    ports:
+      - "8080:80" # Puerto 80 interno de la API → 8080 en host
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      SEQ_URL: "http://seq:80" # Permite que la API envíe eventos a Seq
+    depends_on:
+      - seq
+
+volumes:
+  seq-data:

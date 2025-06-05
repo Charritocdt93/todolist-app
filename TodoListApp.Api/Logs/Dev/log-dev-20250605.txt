@@ -1,0 +1,174 @@
+[2025-06-05 13:19:44.106 INF] TodoListApp.Api.Controllers.TodoListController at : → GET /api/todolist solicitados.
+[2025-06-05 13:19:44.161 INF] TodoListApp.Application.Services.TodoListService at : → Obteniendo todos los TodoItems
+[2025-06-05 17:54:28.407 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 17:54:28.516 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 17:54:41.121 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=Test, Categoría=Work
+[2025-06-05 17:54:41.126 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=Test, Category=Work
+[2025-06-05 17:54:41.131 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 17:54:41.135 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 17:54:41.162 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 17:54:41.165 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 17:54:52.273 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-17T00:00:00.0000000", Percent=50
+[2025-06-05 17:54:52.278 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-17T00:00:00.0000000", Percent=50
+[2025-06-05 17:54:52.296 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-17T00:00:00.0000000", Percent=50
+[2025-06-05 17:54:52.304 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 17:54:52.306 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:00:15.205 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:00:15.264 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:01:54.039 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=Test, Categoría=Work
+[2025-06-05 18:01:54.044 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=Test, Category=Work
+[2025-06-05 18:01:54.048 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:01:54.052 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:01:54.077 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:01:54.079 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:02:03.595 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-11T00:00:00.0000000", Percent=45
+[2025-06-05 18:02:03.599 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-11T00:00:00.0000000", Percent=45
+[2025-06-05 18:02:03.603 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-11T00:00:00.0000000", Percent=45
+[2025-06-05 18:02:03.610 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:02:03.612 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:06:14.717 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:06:14.723 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:12:31.213 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:12:31.284 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:12:48.326 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=test, Categoría=Work
+[2025-06-05 18:12:48.331 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=test, Category=Work
+[2025-06-05 18:12:48.335 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:12:48.339 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:12:48.369 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:12:48.371 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:12:55.321 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:12:55.326 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:12:55.330 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:12:55.339 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:12:55.341 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:13:54.527 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:13:54.598 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:13:58.852 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=ada, Categoría=Work
+[2025-06-05 18:13:58.856 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=ada, Category=Work
+[2025-06-05 18:13:58.860 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:13:58.863 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:13:58.892 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:13:58.895 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:14:06.211 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:14:06.217 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:14:06.221 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:14:06.227 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:14:06.229 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:15:06.546 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:15:06.549 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:15:15.413 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:15:15.485 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:16:14.004 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=fds, Categoría=Work
+[2025-06-05 18:16:14.009 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=fds, Category=Work
+[2025-06-05 18:16:14.012 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:16:14.016 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:16:14.041 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:16:14.044 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:16:20.747 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-18T00:00:00.0000000", Percent=50
+[2025-06-05 18:16:20.751 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-18T00:00:00.0000000", Percent=50
+[2025-06-05 18:16:20.756 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-18T00:00:00.0000000", Percent=50
+[2025-06-05 18:16:20.766 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:16:20.769 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:16:40.636 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-17T00:00:00.0000000", Percent=20
+[2025-06-05 18:16:40.639 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-17T00:00:00.0000000", Percent=20
+[2025-06-05 18:16:46.953 WRN] TodoListApp.Api.Middleware.ExceptionHandlingMiddleware (:) → ⚠️ DomainException capturada en request POST /api/todolist/1/progressions
+TodoListApp.Domain.Exceptions.DomainException: La fecha de la nueva progresión debe ser mayor que las existentes.
+   at TodoListApp.Domain.Entities.TodoItem.AddProgression(Progression nuevaProg) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Domain\Entities\TodoItem.cs:line 82
+   at TodoListApp.Application.Services.TodoListService.RegisterProgression(Int32 id, DateTime dateTime, Decimal percent) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Application\Services\TodoListService.cs:line 91
+   at TodoListApp.Api.Controllers.TodoListController.RegisterProgression(Int32 id, RegisterProgressionDto dto) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Api\Controllers\TodoListController.cs:line 70
+   at lambda_method7(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at TodoListApp.Api.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Api\Middleware\ExceptionHandlingMiddleware.cs:line 26
+[2025-06-05 18:17:00.214 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-25T00:00:00.0000000", Percent=20
+[2025-06-05 18:17:00.217 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-25T00:00:00.0000000", Percent=20
+[2025-06-05 18:17:00.220 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-25T00:00:00.0000000", Percent=20
+[2025-06-05 18:17:00.233 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:17:00.235 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:17:39.201 INF] TodoListApp.Api.Controllers.TodoListController (:) → DELETE /api/todolist/1
+[2025-06-05 18:17:39.205 INF] TodoListApp.Application.Services.TodoListService (:) → Eliminando TodoItem Id=1
+[2025-06-05 18:17:42.410 WRN] TodoListApp.Api.Middleware.ExceptionHandlingMiddleware (:) → ⚠️ DomainException capturada en request DELETE /api/todolist/1
+TodoListApp.Domain.Exceptions.DomainException: No se puede eliminar un TodoItem con más del 50% completado.
+   at TodoListApp.Application.Services.TodoListService.RemoveItem(Int32 id) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Application\Services\TodoListService.cs:line 77
+   at TodoListApp.Api.Controllers.TodoListController.Delete(Int32 id) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Api\Controllers\TodoListController.cs:line 62
+   at lambda_method17(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at TodoListApp.Api.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Api\Middleware\ExceptionHandlingMiddleware.cs:line 26
+[2025-06-05 18:23:41.587 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:23:41.680 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:23:59.456 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=asd, Categoría=Work
+[2025-06-05 18:23:59.461 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=asd, Category=Work
+[2025-06-05 18:23:59.465 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:23:59.469 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:23:59.492 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:23:59.495 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:24:05.933 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-17T00:00:00.0000000", Percent=45
+[2025-06-05 18:24:05.938 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-17T00:00:00.0000000", Percent=45
+[2025-06-05 18:24:05.943 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-17T00:00:00.0000000", Percent=45
+[2025-06-05 18:24:05.949 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:24:05.953 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:24:47.553 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:24:47.563 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:25:08.832 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:25:08.899 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:27:10.365 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:27:10.369 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:27:16.916 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=asd, Categoría=Work
+[2025-06-05 18:27:16.921 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=asd, Category=Work
+[2025-06-05 18:27:16.926 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:27:16.929 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:27:16.955 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:27:16.959 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:27:22.643 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-09T00:00:00.0000000", Percent=50
+[2025-06-05 18:27:22.648 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-09T00:00:00.0000000", Percent=50
+[2025-06-05 18:27:22.653 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-09T00:00:00.0000000", Percent=50
+[2025-06-05 18:27:22.661 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:27:22.663 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:28:14.423 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-09T00:00:00.0000000", Percent=45
+[2025-06-05 18:28:14.427 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-09T00:00:00.0000000", Percent=45
+[2025-06-05 18:28:18.623 WRN] TodoListApp.Api.Middleware.ExceptionHandlingMiddleware (:) → ⚠️ DomainException capturada en request POST /api/todolist/1/progressions
+TodoListApp.Domain.Exceptions.DomainException: La fecha de la nueva progresión debe ser mayor que las existentes.
+   at TodoListApp.Domain.Entities.TodoItem.AddProgression(Progression nuevaProg) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Domain\Entities\TodoItem.cs:line 82
+   at TodoListApp.Application.Services.TodoListService.RegisterProgression(Int32 id, DateTime dateTime, Decimal percent) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Application\Services\TodoListService.cs:line 91
+   at TodoListApp.Api.Controllers.TodoListController.RegisterProgression(Int32 id, RegisterProgressionDto dto) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Api\Controllers\TodoListController.cs:line 70
+   at lambda_method7(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at TodoListApp.Api.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Proyectos\Pruebas\TodoListApp\TodoListApp.Api\Middleware\ExceptionHandlingMiddleware.cs:line 26

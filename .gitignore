@@ -1,0 +1,41 @@
+# .gitignore para un proyecto .NET + Vue
+
+# -----------------------
+# Archivos de Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+
+# Build outputs
+bin/
+obj/
+publish/
+
+# Rider caches
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Archivos de Docker
+docker-compose.override.yml
+
+# Archivos de configuración sensibles
+appsettings.Development.json
+
+
+# Logs
+*.log
+
+# Paquetes de NuGet
+*.nupkg
+*.snupkg
+
+# Protobuf
+*.csproj.user
+
+# Archivos temporales
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates

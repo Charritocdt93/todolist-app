@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoListApp - Web</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <h1>Gestión de TodoItems</h1>
+
+    <!-- ===============================
+         SECCIÓN 1: Crear Nuevo TodoItem
+         =============================== -->
+    <section id="create-section">
+        <h2>Crear Nuevo TodoItem</h2>
+        <form id="create-form">
+            <input id="new-title" type="text" placeholder="Título" required />
+            <input id="new-desc" type="text" placeholder="Descripción" required />
+            <select id="new-category" required>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Home">Home</option>
+                <option value="Other">Other</option>
+            </select>
+            <button type="submit" id="btn-create">Crear</button>
+        </form>
+        <div id="create-msg" class="message"></div>
+    </section>
+
+    <hr />
+
+    <!-- ===============================
+         SECCIÓN 2: Lista de TodoItems
+         =============================== -->
+    <section id="list-section">
+        <h2>Lista de TodoItems</h2>
+        <div id="items-container"></div>
+    </section>
+
+    <hr />
+
+    <!-- ===================================================
+         SECCIÓN 3: Formulario oculto para Agregar Progresión
+         =================================================== -->
+    <section id="progression-section" class="hidden">
+        <h2>Añadir Progresión al TodoItem <span id="prog-item-id"></span></h2>
+        <form id="progression-form">
+            <!-- El id del ítem se rellenará dinámicamente -->
+            <input type="hidden" id="prog-parent-id" />
+
+            <label for="prog-date">Fecha:</label>
+            <input id="prog-date" type="date" required />
+
+            <label for="prog-percent">Porcentaje (%):</label>
+            <input id="prog-percent" type="number" min="1" max="100" required />
+
+            <button type="submit">Registrar Progresión</button>
+            <button type="button" id="prog-cancel">Cancelar</button>
+        </form>
+        <div id="prog-msg" class="message"></div>
+    </section>
+
+    <hr />
+
+    <!-- ===============================================
+         SECCIÓN 4: Formulario oculto para Actualizar Descripción
+         =============================================== -->
+    <section id="update-section" class="hidden">
+        <h2>Actualizar Descripción del TodoItem <span id="upd-item-id"></span></h2>
+        <form id="update-form">
+            <!-- El id del ítem se rellenará dinámicamente -->
+            <input type="hidden" id="upd-parent-id" />
+
+            <label for="upd-new-desc">Nueva Descripción:</label>
+            <input id="upd-new-desc" type="text" required />
+
+            <button type="submit">Actualizar</button>
+            <button type="button" id="upd-cancel">Cancelar</button>
+        </form>
+        <div id="upd-msg" class="message"></div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

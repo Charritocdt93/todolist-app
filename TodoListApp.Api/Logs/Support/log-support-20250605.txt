@@ -1,0 +1,115 @@
+[2025-06-05 13:19:44 INF] TodoListApp.Api.Controllers.TodoListController at : → GET /api/todolist solicitados.
+[2025-06-05 13:19:44 INF] TodoListApp.Application.Services.TodoListService at : → Obteniendo todos los TodoItems
+[2025-06-05 17:54:28 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 17:54:28 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 17:54:41 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=Test, Categoría=Work
+[2025-06-05 17:54:41 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=Test, Category=Work
+[2025-06-05 17:54:41 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 17:54:41 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 17:54:41 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 17:54:41 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 17:54:52 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-17T00:00:00.0000000", Percent=50
+[2025-06-05 17:54:52 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-17T00:00:00.0000000", Percent=50
+[2025-06-05 17:54:52 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-17T00:00:00.0000000", Percent=50
+[2025-06-05 17:54:52 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 17:54:52 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:00:15 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:00:15 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:01:54 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=Test, Categoría=Work
+[2025-06-05 18:01:54 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=Test, Category=Work
+[2025-06-05 18:01:54 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:01:54 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:01:54 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:01:54 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:02:03 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-11T00:00:00.0000000", Percent=45
+[2025-06-05 18:02:03 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-11T00:00:00.0000000", Percent=45
+[2025-06-05 18:02:03 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-11T00:00:00.0000000", Percent=45
+[2025-06-05 18:02:03 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:02:03 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:06:14 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:06:14 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:12:31 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:12:31 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:12:48 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=test, Categoría=Work
+[2025-06-05 18:12:48 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=test, Category=Work
+[2025-06-05 18:12:48 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:12:48 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:12:48 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:12:48 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:12:55 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:12:55 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:12:55 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:12:55 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:12:55 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:13:54 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:13:54 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:13:58 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=ada, Categoría=Work
+[2025-06-05 18:13:58 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=ada, Category=Work
+[2025-06-05 18:13:58 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:13:58 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:13:58 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:13:58 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:14:06 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:14:06 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:14:06 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-16T00:00:00.0000000", Percent=35
+[2025-06-05 18:14:06 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:14:06 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:15:06 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:15:06 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:15:15 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:15:15 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:16:14 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=fds, Categoría=Work
+[2025-06-05 18:16:14 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=fds, Category=Work
+[2025-06-05 18:16:14 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:16:14 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:16:14 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:16:14 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:16:20 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-18T00:00:00.0000000", Percent=50
+[2025-06-05 18:16:20 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-18T00:00:00.0000000", Percent=50
+[2025-06-05 18:16:20 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-18T00:00:00.0000000", Percent=50
+[2025-06-05 18:16:20 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:16:20 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:16:40 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-17T00:00:00.0000000", Percent=20
+[2025-06-05 18:16:40 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-17T00:00:00.0000000", Percent=20
+[2025-06-05 18:16:46 WRN] TodoListApp.Api.Middleware.ExceptionHandlingMiddleware (:) → ⚠️ DomainException capturada en request POST /api/todolist/1/progressions
+[2025-06-05 18:17:00 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-25T00:00:00.0000000", Percent=20
+[2025-06-05 18:17:00 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-25T00:00:00.0000000", Percent=20
+[2025-06-05 18:17:00 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-25T00:00:00.0000000", Percent=20
+[2025-06-05 18:17:00 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:17:00 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:17:39 INF] TodoListApp.Api.Controllers.TodoListController (:) → DELETE /api/todolist/1
+[2025-06-05 18:17:39 INF] TodoListApp.Application.Services.TodoListService (:) → Eliminando TodoItem Id=1
+[2025-06-05 18:17:42 WRN] TodoListApp.Api.Middleware.ExceptionHandlingMiddleware (:) → ⚠️ DomainException capturada en request DELETE /api/todolist/1
+[2025-06-05 18:23:41 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:23:41 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:23:59 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=asd, Categoría=Work
+[2025-06-05 18:23:59 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=asd, Category=Work
+[2025-06-05 18:23:59 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:23:59 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:23:59 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:23:59 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:24:05 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-17T00:00:00.0000000", Percent=45
+[2025-06-05 18:24:05 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-17T00:00:00.0000000", Percent=45
+[2025-06-05 18:24:05 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-17T00:00:00.0000000", Percent=45
+[2025-06-05 18:24:05 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:24:05 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:24:47 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:24:47 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:25:08 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:25:08 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:27:10 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:27:10 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:27:16 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist - Título=asd, Categoría=Work
+[2025-06-05 18:27:16 INF] TodoListApp.Application.Services.TodoListService (:) → Creando TodoItem: Title=asd, Category=Work
+[2025-06-05 18:27:16 INF] TodoListApp.Infrastructure.Persistence.InMemoryTodoListRepository (:) → TodoItem agregado en memoria con Id=1
+[2025-06-05 18:27:16 INF] TodoListApp.Application.Services.TodoListService (:) → TodoItem creado con Id=1
+[2025-06-05 18:27:16 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:27:16 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:27:22 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-09T00:00:00.0000000", Percent=50
+[2025-06-05 18:27:22 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-09T00:00:00.0000000", Percent=50
+[2025-06-05 18:27:22 INF] TodoListApp.Application.Services.TodoListService (:) → Progresión registrada en TodoItem Id=1: Fecha="2025-06-09T00:00:00.0000000", Percent=50
+[2025-06-05 18:27:22 INF] TodoListApp.Api.Controllers.TodoListController (:) → GET /api/todolist solicitados.
+[2025-06-05 18:27:22 INF] TodoListApp.Application.Services.TodoListService (:) → Obteniendo todos los TodoItems
+[2025-06-05 18:28:14 INF] TodoListApp.Api.Controllers.TodoListController (:) → POST /api/todolist/1/progressions - Fecha="2025-06-09T00:00:00.0000000", Percent=45
+[2025-06-05 18:28:14 INF] TodoListApp.Application.Services.TodoListService (:) → Registrando progresión para TodoItem Id=1, Fecha="2025-06-09T00:00:00.0000000", Percent=45
+[2025-06-05 18:28:18 WRN] TodoListApp.Api.Middleware.ExceptionHandlingMiddleware (:) → ⚠️ DomainException capturada en request POST /api/todolist/1/progressions
