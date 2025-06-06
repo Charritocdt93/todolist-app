@@ -3,7 +3,6 @@ using TodoListApp.Application.Interfaces;
 using TodoListApp.Domain.Entities;
 using TodoListApp.Domain.Exceptions;
 using TodoListApp.Domain.Repositories;
-using TodoListApp.Domain.ValueObjects;
 
 namespace TodoListApp.Application.Services
 {
@@ -28,10 +27,6 @@ namespace TodoListApp.Application.Services
 
             if (string.IsNullOrWhiteSpace(title))
                 throw new DomainException("El Título no puede estar vacío.");
-
-            // Intentamos parsear el string a Category enum
-            if (!Enum.TryParse<Category>(category, ignoreCase: true, out var categoryEnum))
-                throw new ArgumentException($"Categoría inválida: {category}");
 
             var nextId = _repository.GetNextId();
             var categorias = _repository.GetAllCategories();

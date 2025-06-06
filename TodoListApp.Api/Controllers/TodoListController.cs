@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TodoListApp.Application.DTOs;
 using TodoListApp.Application.Interfaces;
-using TodoListApp.Domain.ValueObjects;
 
 namespace TodoListApp.Api.Controllers
 {
@@ -37,18 +36,6 @@ namespace TodoListApp.Api.Controllers
                 return NotFound();
             }
             return Ok(item);
-        }
-
-        /// <summary>
-        /// Devuelve el listado de categorías disponibles (enumeración Category).
-        /// </summary>
-        [HttpGet("categories")]
-        public IActionResult GetCategories()
-        {
-            // Obtenemos todos los valores del enum Category
-            var categories = Enum.GetNames(typeof(Category));
-            // Ejemplo resultante: [ "Work", "Personal", "Hobby", "Other" ]
-            return Ok(categories);
         }
 
         [HttpPost]
