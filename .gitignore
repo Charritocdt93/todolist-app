@@ -39,3 +39,7 @@ appsettings.Development.json
 **/*.suo
 **/*.userosscache
 **/*.sln.docstates
+
+# Ignorar toda la carpeta de Logs en la API
+TodoListApp.Api/Logs/
+
