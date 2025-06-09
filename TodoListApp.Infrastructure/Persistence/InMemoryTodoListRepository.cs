@@ -54,9 +54,7 @@ namespace TodoListApp.Infrastructure.Persistence
         public TodoItem GetTodoItemById(int id)
         {
             _store.TryGetValue(id, out var item);
-            if (item != null)
-                _logger.LogDebug("GetTodoItemById({Id}) -> encontrado", id);
-            else
+            if (item == null)
                 _logger.LogDebug("GetTodoItemById({Id}) -> no encontrado", id);
             return item;
         }

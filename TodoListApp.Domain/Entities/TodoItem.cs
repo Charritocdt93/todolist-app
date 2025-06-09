@@ -77,6 +77,11 @@ namespace TodoListApp.Domain.Entities
             // Validamos fecha creciente
             if (_progressions.Any())
             {
+                var last = Progressions.Last();
+                if (nuevaProg.Percent <= last.Percent)
+                    throw new DomainException(
+                        "El porcentaje de la nueva progresión debe ser mayor que el anterior.");
+
                 DateTime fechaMaxima = _progressions.Max(p => p.Date);
                 if (nuevaProg.Date <= fechaMaxima)
                     throw new DomainException("La fecha de la nueva progresión debe ser mayor que las existentes.");
